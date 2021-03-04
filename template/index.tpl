@@ -4,7 +4,7 @@
     <div class="container">
     <div class="row">
         <div class="col-12 mt-5">
-            <a class="btn btn-success float-right" href="new_feedback.php">New feedback</a>
+            <a class="btn btn-success float-left" href="new_feedback.php">New feedback</a>
         </div>
     </div>
     <div class="row">
