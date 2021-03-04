@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-02 10:45:43
+/* Smarty version 3.1.39, created on 2021-03-04 07:56:07
   from 'C:\xampp\htdocs\feedback\template\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_603e09471a1845_24013978',
+  'unifunc' => 'content_60408487e410d7_31121865',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '894652a8f309ca3b2b14c8a7f03821666392ddce' => 
     array (
       0 => 'C:\\xampp\\htdocs\\feedback\\template\\index.tpl',
-      1 => 1614678143,
+      1 => 1614840961,
       2 => 'file',
     ),
   ),
@@ -20,23 +20,23 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_603e09471a1845_24013978 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60408487e410d7_31121865 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2000767641603e09470bf7c5_68110163', "body");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_47646017860408487e1c670_23035248', "body");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "layout.tpl");
 }
 /* {block "body"} */
-class Block_2000767641603e09470bf7c5_68110163 extends Smarty_Internal_Block
+class Block_47646017860408487e1c670_23035248 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_2000767641603e09470bf7c5_68110163',
+    0 => 'Block_47646017860408487e1c670_23035248',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -45,7 +45,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
     <div class="container">
     <div class="row">
         <div class="col-12 mt-5">
-            <a class="btn btn-success float-right" href="new_feedback.php">New feedback</a>
+            <a class="btn btn-success float-left" href="new_feedback.php">New feedback</a>
         </div>
     </div>
     <div class="row">
