@@ -3,7 +3,7 @@
 
 //       $qry="select* from feedback details";   
 //        $row =mysqli_query($con,$qry);
-
+   
 
 
 
